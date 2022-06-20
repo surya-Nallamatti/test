@@ -39,7 +39,7 @@ const Login = () => {
       <Card>
         <Logo className={styles.logo} />
         <Typography className="mb-3" block variant="body_bold">
-          Login to your account check Contionous integration now
+          login to check the CI process
         </Typography>
         <Formik
           onSubmit={async (values) => {
